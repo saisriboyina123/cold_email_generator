@@ -1,5 +1,11 @@
-# cold_email_generator
-This project automates the process of scraping job postings from career pages, extracting structured data, and generating tailored cold emails using advanced AI models. It integrates web scraping, data processing, and querying to create a seamless pipeline for business development professionals.
+# 📧 Cold Mail Generator
+Cold email generator for services company using groq, langchain and streamlit. It allows users to input the URL of a company's careers page. The tool then extracts job listings from that page and generates personalized cold emails. These emails include relevant portfolio links sourced from a vector database, based on the specific job descriptions. 
+
+**Imagine a scenario:**
+
+- Nike needs a Principal Software Engineer and is spending time and resources in the hiring process, on boarding, training etc
+- Atliq is Software Development company can provide a dedicated software development engineer to Nike. So, the business development executive (Mohan) from Atliq is going to reach out to Nike via a cold email.
+
 ![img.png](imgs/img.png)
 
 ## Architecture Diagram
@@ -19,3 +25,8 @@ This project automates the process of scraping job postings from career pages, e
    streamlit run app/main.py
    ```
    
+
+Copyright (C) Codebasics Inc. All rights reserved.
+
+**Additional Terms:**
+This software is licensed under the MIT License. However, commercial use of this software is strictly prohibited without prior written permission from the author. Attribution must be given in all copies or substantial portions of the software.
